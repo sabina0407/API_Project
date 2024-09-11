@@ -35,7 +35,7 @@ h1 {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color:rgb(68, 94, 170);
+    background-color: #4c91af;
     color: white;
     border: none;
     cursor: pointer;
@@ -43,7 +43,13 @@ button {
 }
 
 button:hover {
-    background-color: rgb(68, 94, 170);
+    background-color: #4c91af;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 #weather-info {
@@ -56,10 +62,9 @@ button:hover {
     margin-bottom: 20px;
 }
 
-#weather-details {
+#current-weather, #forecast {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -80,4 +85,14 @@ button:hover {
     margin: 5px 0;
 }
 
-/* Will work on background and colors, media later */
+#weather-icon {
+    font-size: 48px;
+}
+
+.forecast-day {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
