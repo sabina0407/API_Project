@@ -1,0 +1,83 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#location-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#city {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgb(68, 94, 170);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(68, 94, 170);
+}
+
+#weather-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#city-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#weather-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weather-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.weather-item i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.weather-item p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Will work on background and colors, media later */
