@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,6 +36,50 @@
                 </div>
             </div>
             <div id="forecast" style="display: none;"></div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App| API</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="location-input">
+            <input type="text" class="city-input" id="city" name="city" placeholder="Enter city name" autocomplete="off">
+            <button class="get-weather-btn">Get Weather</button>
+        </div>
+        <nav class="nav-buttons">
+            <button class="current-weather-btn">Current Weather</button>
+            <button class="forecast-btn">5-Day Forecast</button>
+        </nav>
+        <div class="weather-info">
+            <h2 class="city-name"></h2>
+            <div class="current-weather">
+                <div class="weather-item">
+                    <i class="weather-icon fas"></i>
+                    <p class="temperature"></p>
+                    <p class="weather-condition"></p>
+                </div>
+                <div class="weather-item">
+                    <i class="wind-icon fas fa-wind"></i>
+                    <p class="wind-speed"></p>
+                </div>
+                <div class="humidity-icon weather-item">
+                    <i class="fas fa-tint"></i>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+            <div class="forecast"></div>
         </div>
     </div>
     <script src="js/index.js"></script>
